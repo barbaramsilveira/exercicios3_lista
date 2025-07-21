@@ -1,0 +1,51 @@
+header{
+    background-color:rgb(148, 190, 218);
+    color: rgb(8, 27, 122);
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border: 30px solid rgb(113, 113, 173);
+    box-shadow: 10px 10px grey;
+}
+
+main{
+    background-color: rgb(151, 124, 175);
+    color:rgb(27, 16, 36);
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border-color:rgba(74, 71, 71, 0.659);
+    border-style: solid;
+    border-width: 5px;
+
+}
+
+footer{
+    background-color: rgb(106, 162, 188);
+    color: rgb(8, 36, 95);
+    font-style: italic;
+    font-weight: bold;
+    padding: 15px;
+    margin: 5px;
+    border: 7px dashed rgb(28, 148, 185);
+}
+
+header,footer{
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.destaque{
+    font-style: italic;
+    background-color: rgb(209, 193, 222);
+}
+
+#importante{
+    border-top: 10px solid rgb(209, 193, 222);
+    border-radius: 4px;  
+}
