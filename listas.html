@@ -4,24 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercício 2</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>    
-    <main>
-        <section>
-            <h2>Principais hobbies - Bárbara Martins</h2>
-            <ul>
-                <li>Leitura (livros de suspense e clássicos).</li>
-                <li>Descobrir novos restaurantes (Massas, risotos e culinária japonesa são meus preferidos).</li>
-                <li>Pequenas viagens.</li>
-                <li>Escutar podcasts de true crime.</li>
-                <li>Culinária, sou muito boa em fazer bolos.</li>
+<body> 
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="index.html">Exercício 1</a></li>
+                <li class="header__menu-item"><a href="listas.html">Exercício 2</a></li>
+                <li class="header__menu-item"><a href="feedback.html">Exercício 3</a></li>
+                <li class="header__menu-item"><a href="galeria.html">Exercício 6</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main class="conteudo-principal">
+        <section class="conteudo-principal__sessao">
+            <h1 class="conteudo-principal__h1"> Hobbies - Bárbara Martins</h1>
+            <ul class="conteudo-principal__lista">
+                <!-- Conteúdo em destaque, conforme solicitado no exercício-->
+                <li class="destaque">Leitura (livros de suspense e clássicos).</li>
+                <li class="destaque">Descobrir novos restaurantes (Massas, risotos e culinária japonesa são meus preferidos).</li>
+                <li class="destaque">Pequenas viagens.</li>
+                <li class="destaque">Escutar podcasts de true crime.</li>
+                <li class="destaque">Culinária, sou muito boa em fazer bolos.</li>
             </ul>
         </section>
-
-        <section>
-            <p>Aproveitando um dos meus hobbies, vou ensinar a fazer um delicioso bolo de cenoura com cobertura de chocolate.</p>
-            <h2>Receita bolo de cenoura com cobertura chocolatuda</h2>
-                <ol>
+        <section class="conteudo-principal__sessao">
+            <!-- Id importante conforme solicitado no exercício-->
+            <p id="importante">Aproveitando um dos meus hobbies, vou ensinar a fazer um delicioso bolo de cenoura com cobertura de chocolate.</p>
+            <h1 class="conteudo-principal__h1">Receita bolo de cenoura com cobertura chocolatuda</h2>
+                <ol class="lista-ordenada">
                     <li>3 cenouras médias, totalizando mais ou menos 250gr.</li>
                     <li>3 ovos.</li>
                     <li>Meia xícara de óleo.</li>
@@ -40,14 +53,17 @@
                     <li>Depois do chocolate ter sido derretido, misture o creme de leite e cubra o bolo com a mistura.</li>
                 </ol>
         </section>
-    </main>
-    <nav>
-        <h3>Conheça meu trabalho:</h3>
-        <ul>
+    <nav class="conteudo-principal__nav__links">
+        <h3 class="conteudo-principal__subtitulo">Conheça meu trabalho:</h3>
+        <ul class="conteudo-principal__lista">
             <li><a href="https://github.com/barbaramsilveira">Meu Github</a></li>
             <li><a href="https://www.linkedin.com/in/barbaramartinsdasilveira/">Meu Linkedin</a></li>
             <li><a href="https://barbara-martins-site-pessoal-uninter.vercel.app/">Meu Portfolio atual</a></li>
         </ul>
     </nav>
+ </main>
+<footer class="footer">
+    <p>&copy; 2025 Bárbara Martins. Todos os direitos reservados.</p>
+    <script src="script.js"></script>
 </body>
 </html>

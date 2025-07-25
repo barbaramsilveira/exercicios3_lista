@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -7,26 +6,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Bem-vindos à página de Bárbara Martins</h1>
-        <p class="destaque" id="importante">Nessa página serão publicados os exercícios do módulo de Front-End da formação Desenvolvedor Full-Stack Jr. da MaisPraTI.</p>
-    </header>
-
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="index.html">Exercício 1</a></li>
+                <li class="header__menu-item"><a href="listas.html">Exercício 2</a></li>
+                <li class="header__menu-item"><a href="feedback.html">Exercício 3</a></li>
+                <li class="header__menu-item"><a href="galeria.html">Exercício 6</a></li>
+            </ul>
+        </nav>
+    </header> 
     <main>
-        <section>
-            <h2>Missão</h2>
-            <p class="destaque">Desenvolver as tarefas do curso com qualidade e de forma criativa.</p>
-        </section>
-
-        <section>
-            <h2>Visão</h2>
-            <p class="destaque">Aproveitar as oportunidades para qualificação que a formação oferece, rumo à jornada em tecnologia.</p>
-        </section>
-
+        <h1 class="conteudo-principal__h1">Lista de exercícios nº 3 MaisPraTI - Bárbara Martins da Silveira</h1>
+        <div class="conteudo-principal">
+            <section class="cards">
+                <h2 class="conteudo-principal__h2">Missão</h2>
+                <p class="conteudo-principal__p">Desenvolver as tarefas do curso com qualidade e de forma criativa.</p>
+            </section>
+            <section class="cards">
+                <h2 class="conteudo-principal__h2">Visão</h2>
+                <p class="conteudo-principal__p">Aproveitar as oportunidades para qualificação que a formação oferece, rumo à jornada em tecnologia.</p>
+            </section>
+        </div>
     </main>
-    
-    <footer>
+    <footer class="footer">
         <p>&copy; 2025 Bárbara Martins. Todos os direitos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
